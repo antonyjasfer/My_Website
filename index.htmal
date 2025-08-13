@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Netlify Site</title>
+  <style>
+    body{font-family:system-ui, Arial; margin:0; padding:2rem; line-height:1.5}
+    .container{max-width:900px; margin:0 auto}
+    header{font-size:2rem; font-weight:700; margin-bottom:1rem}
+    .card{padding:1rem; border:1px solid #eee; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,.06)}
+    a{color:inherit}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>🚀 Hello from Netlify + GitHub</header>
+    <div class="card">
+      <p>Deployed from a GitHub repo. Edit <code>index.html</code>, commit, and Netlify redeploys automatically.</p>
+      <p>Made by me 😎</p>
+    </div>
+  </div>
+</body>
+</html>
